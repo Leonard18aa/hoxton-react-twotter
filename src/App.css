@@ -25,6 +25,7 @@
   width: 200px;
   height: 1fr;
   gap: 5px;
+  position: fixed;
 }
 
 .twiterLeftPage button{
@@ -59,16 +60,27 @@
   padding: 15px 80px;
 }
 
-.twiterMainPage .FirstPost{
+.twiterMainPage {
   display: grid;
   grid-auto-flow: row;
   gap: 20px;
   justify-content: center;
-  border: 1px solid rgb(209, 209, 209);
-  padding: 20px 0px;
   width: 600px;
-
+  margin-left: 280px;
 }
+
+.FirstPost {
+  border: 1px solid rgb(209, 209, 209);
+  padding: 20px 10px;
+}
+.SecondPost{
+  border: 1px solid rgb(209, 209, 209);
+  padding: 20px 10px;
+}
+
+
+
+
 
 .Username{
   display: grid;
