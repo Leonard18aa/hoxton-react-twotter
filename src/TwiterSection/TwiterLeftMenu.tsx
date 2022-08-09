@@ -1,10 +1,10 @@
 export function TwitterLeftMenu() {
     return (
         <>
+        <div className='twiterLeftPage'>
         <button className="TweetLogo">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png" width={30} alt="" />
         </button>
-        <div className='twiterLeftPage'>
         <button>
           <img src="https://cdn-icons-png.flaticon.com/512/15/15766.png" width={20} alt="" />
           <h3>Home</h3>
@@ -37,9 +37,9 @@ export function TwitterLeftMenu() {
           <img src="https://cdn-icons-png.flaticon.com/128/152/152528.png" width={20} alt="" />
           <h3>More</h3>
         </button>
-        </div>
         <div className="tweetButton">
         <button className="tweetButtonTweet">Tweet</button>
+        </div>
         </div>
         </>
     )
