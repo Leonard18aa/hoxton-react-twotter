@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.TweetLogo {
+  background: none;
+  border: none;
+  
+}
+
+.twiterLeftPage{
+  display: grid;
+  grid-auto-flow: row;
+  width: 150px;
+  gap: 5px;
+}
+
+.twiterLeftPage button{
+  display: grid;
+  grid-auto-flow: column;
+  background: none;
+  border: none;
+  align-items: center;
+  text-align: start;
+}
+
+.twiterLeftPage button:hover{
+  background-color: rgb(176, 176, 176);
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 30px;
+  padding: 0px 10px ;
+  
+}
+
+.tweetButton .tweetButtonTweet{
+  background-color:#1d9bf0 ;
+  border: 1px solid#1d9bf0;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  padding: 15px 80px;
+}
+
