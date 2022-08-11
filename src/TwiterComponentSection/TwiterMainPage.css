@@ -1,0 +1,32 @@
+
+.twiterMainPage {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 20px;
+    justify-content: center;
+    width: 600px;
+    margin-left: 280px;
+  }
+  
+  .FirstPost {
+    border: 1px solid rgb(209, 209, 209);
+    padding: 20px 10px;
+  }
+  .SecondPost{
+    border: 1px solid rgb(209, 209, 209);
+    padding: 20px 10px;
+  }
+ 
+  .Username{
+    display: grid;
+    grid-auto-flow: column;
+    width: 150px;
+    align-items: center;
+  }
+  .Comments{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 120px;
+    font-size: 25px;
+  }
