@@ -34,11 +34,12 @@ const [posts, setPosts] = useState(
 ]);
 
 export function TwiterMainPage() {
-
-
+const AllPost = (posts)
+ 
   return (
     <div className="twiterMainPage">
-      {posts.map((post) => {
+
+      { posts.map((post) => {
         return (
           <div className="FirstPost">
             <div className="Username">
